@@ -4,7 +4,7 @@ using namespace std;
 
 struct mhs
 {
-    char nama [50], nim [10], jurusan [3];
+    char nama [50], nim [20], jurusan [3];
     int sks, program;
 };
 struct mhs bayar [2];
@@ -49,4 +49,4 @@ int main(){
                 cout<<"\nSPP variabel   = "<<var;
         }
     return 0;
-}
+} 
